@@ -1,0 +1,29 @@
+<html>
+<body>
+<h1> Hello, Welcome to the BrainsFeed API</h1>
+<h2> This is the api that will teach you how to use this api </h2>
+<h3>This is a great way to get started. </h3>
+<h1 style="color:red;">WARNING: You might not be able to scrape any page at any time.</h1>
+<h1> The GET Functionality</h1>
+<h4> To recieve data from crawled websites offered by the api, you must use the following link:<br>
+    <span style="color:red;">'https://brainsfeedapi-rjsode.herokuapp.com/get?url=[]&key=[]'</span>, for getting data in json form<br>
+    <span style="color:red;">'https://brainsfeedapi-rjsode.herokuapp.com/push?url=[]&key=[]'</span>, to push scrawled data to a dataset stored locally</h4>
+
+<h2> the URL argument</h2>
+<h4> The url argument in the api call should contain the particular URL you want to<br>
+scrape for data. for example, if you want to scrape www.heroku.com, then the url argument<br>
+must contain the FULL URL , i.e. 'http://www.heroku.com/' in order to scrape sucessfully</h4>
+<h3>https://brainsfeedapi-rjsode.herokuapp.com/get?url=[full-url]</h3>
+<h2>the KEY argument</h2>
+<h4> The KEY argument in the api call is to create authentication implementations on a <br>
+    fundamental level. The Key for you would be given inside this doc at the bottom. If you<br>
+    enter the right key, you will be able to access the GET and PUSH Functionality of the API
+    <br><span style="color:red;">THe KEY FOR YOU TO ACCESS THE API IS: 'brainsfeed1234'</span>
+ </h4>
+<h3 style="color:red;">https://brainsfeedapi-rjsode.herokuapp.com/[get|push]?url=[full-url]&key=[the-key-given('brainsfeed1234')]</h3>
+<h1>The PUSH Functionality</h1>
+<h4>To recieve data from crawlers and directly push it into the .csv file available locally<br>
+you must use the url<span style="color:red;">https://brainsfeedapi-rjsode.herokuapp.com/push </span>followed by the url and key arguments as <br>
+    posted above.</h4>
+</body>
+</html>
